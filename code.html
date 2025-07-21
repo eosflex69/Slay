@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gagandeep Singh | Web & AI Developer</title>
+<!-- Using Google Fonts: Poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+<style>
+  /* Reset and base */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  a {
+    color: #1db954;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: #1ed760;
+  }
+  nav {
+    background-color: #181818;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  nav .logo {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #1db954;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  nav ul li {
+    font-weight: 500;
+  }
+  nav ul li a {
+    font-size: 1rem;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+
+  h1, h2, h3 {
+    color: #1db954;
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    border-bottom: 2px solid #1db954;
+    padding-bottom: 0.4rem;
+    margin-top: 3rem;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #cfcfcf;
+    margin-bottom: 1rem;
+  }
+
+  .project-card {
+    background: #1f1f1f;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0 10px #1db95450;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px #1db954aa;
+  }
+
+  .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .skill-item {
+    background: #282828;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #1db954;
+    box-shadow: 0 0 8px #1db95480;
+  }
+
+  .contact-form {
+    max-width: 400px;
+    margin: 2rem auto 4rem;
+    background: #1f1f1f;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #1db95470;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    background: #121212;
+    border: 2px solid #1db954;
+    color: #e0e0e0;
+    font-size: 1rem;
+    border-radius: 6px;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #1ed760;
+  }
+  .contact-form button {
+    width: 100%;
+    background-color: #1db954;
+    border: none;
+    color: #121212;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 15px #1db954aa;
+  }
+  .contact-form button:hover {
+    background-color: #1ed760;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #181818;
+    color: #888;
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 600px) {
+    nav ul {
+      gap: 1rem;
+    }
+    .skill-list {
+      justify-content: center;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.6rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">s1ayy.dev</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="container" id="home">
+  <h1>Gagandeep Singh</h1>
+  <p>Web & AI Developer (17)</p>
+  <p>AI Prompt Generator & Graphic Designer</p>
+</div>
+
+<div class="container" id="about">
+  <h2>About Me</h2>
+  <p>I'm a passionate 17-year-old Web and AI developer. I specialize in creating smart AI prompt generators and clean, professional graphic designs.</p>
+</div>
+
+<div class="container" id="projects">
+  <h2>Projects</h2>
+  <div class="project-card">
+    <h3>PromptVerse</h3>
+    <p>AI Prompt Generator & Curator for GPT models.</p>
+  </div>
+  <div class="project-card">
+    <h3>ZudioCloth</h3>
+    <p>Clothing UI Web Mockup with a clean, minimalist design.</p>
+  </div>
+  <div class="project-card">
+    <h3>AnimeVerse</h3>
+    <p>Anime-themed portfolio storefront.</p>
+  </div>
+  <div class="project-card">
+    <h3>StickyNotes.js</h3>
+    <p>Note-taking app with local storage support.</p>
+  </div>
+</div>
+
+<div class="container" id="skills">
+  <h2>Skills</h2>
+  <div class="skill-list">
+    <div class="skill-item">HTML</div>
+    <div class="skill-item">CSS</div>
+    <div class="skill-item">JavaScript</div>
+    <div class="skill-item">Python</div>
+    <div class="skill-item">Git</div>
+    <div class="skill-item">AI Prompt Engineering</div>
+    <div class="skill-item">Canva</div>
+    <div class="skill-item">Figma</div>
+  </div>
+</div>
+
+<div class="container" id="contact">
+  <h2>Contact Me</h2>
+  <form class="contact-form" action="https://formspree.io/f/xqkrplld" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="_replyto" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Hire Me</button>
+  </form>
+  <p style="text-align:center; margin-top:1rem;">
+    <a href="https://instagram.com/realooparatha" target="_blank" rel="noopener noreferrer">Instagram</a> | 
+    <a href="https://github.com/slvtbunny" target="_blank" rel="noopener noreferrer">GitHub</a> | 
+    <a href="mailto:slaydev10@gmail.com">Email</a>
+  </p>
+</div>
+
+<footer>
+  &copy; 2025 s1ayy.dev — Built by Gagandeep Singh
+</footer>
+
+</body>
+</html>
